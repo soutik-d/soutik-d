@@ -1,0 +1,7 @@
+{
+    "name": "DefectSubmitted",
+    "url": "https://pulse-7.qtestnet.com/webhook/f0783669-a62b-4f73-a344-5d14c24064ac", //webhook for the trigger "qTestDefectSubmitted"
+    "events": ["defect_submitted"],
+    "responseType": "json",
+    "secretKey": "34c17442-4464-4932-ad2e-bdb3b8ea7025"
+}

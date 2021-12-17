@@ -1,0 +1,7 @@
+{
+    "name": "RequirementCreated",
+    "url": "https://pulse-7.qtestnet.com/webhook/cfc874c6-f90a-46c3-aa70-93012abe4915",   // Webhook for the trigger "qTestRequirementSubmitted"
+    "events": ["requirement_created"],
+    "responseType": "json",
+    "secretKey": "34c17442-4464-4932-ad2e-bdb3b8ea7025"
+}
