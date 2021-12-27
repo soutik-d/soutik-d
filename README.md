@@ -1,10 +1,8 @@
-- 👋 Hi, I’m @soutik-d
-- 👀 I’m interested in integrating tosca functional test scripts with gatling
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-
-<!---
-soutik-d/soutik-d is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+- This application is an effort to facilitate a seamless integration between an Azure DevOps instance and a qTest instance. The features include
+- Creation of qTest Modules from Azure DevOpas Features
+- Create / Update / Delete  qTest Requirements from Azure DevOps User Stories
+- Create Azure DevOps Bugs from qTest Defects
+- Update qTest Defects when the corresponding Azure DevOps Bug is updated
+- Customize Azure DevOps instance and qTest instance to facilitate cross-referencing
+A detailed installation guide is available in the following link
+https://docs.google.com/document/d/1fIJJ2Ik80TEZHUjgf8vw1AkLHw-r52RlKDvtyYFcRAs/edit#
