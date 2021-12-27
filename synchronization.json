@@ -1,0 +1,188 @@
+{
+    "constants": [
+        {
+            "id": "constant-1",
+            "name": "ProjectID",
+            "hidden": false,
+            "value": ""
+        },
+        {
+            "id": "constant-2",
+            "name": "QTEST_TOKEN",
+            "hidden": true,
+            "value": ""
+        },
+        {
+            "id": "constant-3",
+            "name": "ManagerURL",
+            "hidden": false,
+            "value": ""
+        },
+        {
+            "id": "constant-4",
+            "name": "RequirementParentID",
+            "hidden": false,
+            "value": ""
+        },
+        {
+            "id": "constant-5",
+            "name": "RequirementDescriptionFieldID",
+            "hidden": false,
+            "value": ""
+        },
+        {
+            "id": "constant-6",
+            "name": "AllowCreationOnUpdate",
+            "hidden": false,
+            "value": "false"
+        },
+        {
+            "id": "constant-7",
+            "name": "AZDO_TOKEN",
+            "hidden": true,
+            "value": ""
+        },
+        {
+            "id": "constant-8",
+            "name": "AzDoProjectURL",
+            "hidden": false,
+            "value": ""
+        },
+        {
+            "id": "constant-9",
+            "name": "DefectSummaryFieldID",
+            "hidden": false,
+            "value": ""
+        },
+        {
+            "id": "constant-10",
+            "name": "DefectDescriptionFieldID",
+            "hidden": false,
+            "value": ""
+        },
+		{
+			"id": "constant-11",
+            "name": "AzureStoryIdFieldId",
+            "hidden": false,
+            "value": ""
+		},
+		{
+			"id": "constant-12",
+            "name": "AzureStoryPointsFieldId",
+            "hidden": false,
+            "value": ""
+		},
+		{
+			"id": "constant-13",
+            "name": "CTEDetailsFieldId",
+            "hidden": false,
+            "value": ""
+		}
+    ],
+	"actions": [
+		{
+			"id": "action-1",
+			"name": "SyncRequirementFromAzureDevopsWorkItem",
+			"description": null,
+			"code": ""
+		},
+		{
+			"id": "action-2",
+			"name": "CreateDefectInAzureDevops",
+			"description": null,
+			"code": ""
+		},
+		{
+			"id": "action-3",
+			"name": "SyncDefectFromAzureDevopsWorkItem",
+			"description": null,
+			"code": ""
+		},
+		{
+			"id": "action-4",
+			"name": "AzureUpdateqTestRequirement",
+			"description": null,
+			"code": ""
+		},
+		{
+			"id": "action-5",
+			"name": "qTestModuleFromAzDoFeature",
+			"description": null,
+			"code": ""
+		},
+	],
+	"triggers": [
+		{
+			"id": "trigger-1",
+			"name": "AzureDevopsWorkItemForDefectUpdated"
+		},
+		{
+			"id": "trigger-2",
+			"name": "AzureDevopsWorkItemForRequirementCreatedUpdatedDeleted"
+		},
+		{
+			"id": "trigger-3",
+			"name": "qTestDefectSubmitted"
+		},
+		{
+			"id": "trigger-4",
+			"name": "qTestRequirementSubmitted"
+		},
+		{
+			"id": "trigger-5",
+			"name": "AzDoFeatureCreated"			
+		}
+	],
+	"rules": [
+		{
+			"id": "rule-1",
+			"name": "AzureDevopsWorkItemToDefectSync",
+			"active": true,
+			"triggerId": "trigger-1",
+			"actionIds": [
+				"action-3"
+			],
+			"tags": []
+		},
+		{
+			"id": "rule-2",
+			"name": "qTestDefectToAzureDevopsBugSync",
+			"active": true,
+			"triggerId": "trigger-3",
+			"actionIds": [
+				"action-2"
+			],
+			"tags": []
+		},
+		{
+			"id": "rule-3",
+			"name": "AzureDevopsWorkItemToRequirementSync",
+			"active": true,
+			"triggerId": "trigger-2",
+			"actionIds": [
+				"action-1"
+			],
+			"tags": []
+		},
+		{
+			"id": "rule-4",
+			"name": "UpdateAzureWithQTestRequirementId",
+			"active": true,
+			"triggerId": "trigger-4",
+			"actionIds": [
+				"action-4"
+			],
+			"tags": []			
+		},
+		{
+			"id": "rule-5",
+			"name": "CreateQtestModuleFromAzDoFeature",
+			"active": true,
+			"triggerId": "trigger-5",
+			"actionIds": [
+				"action-5"
+			],
+			"tags": []			
+		}
+	]
+}
