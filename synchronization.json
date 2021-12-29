@@ -109,7 +109,7 @@
 			"name": "qTestModuleFromAzDoFeature",
 			"description": "Create qTest Module from Azure DevOps Features",
 			"code": ""
-		},
+		}
 	],
 	"triggers": [
 		{
@@ -137,7 +137,7 @@
 		{
 			"id": "rule-1",
 			"name": "AzureDevopsWorkItemToDefectSync",
-			"active": true,
+			"active": false,
 			"triggerId": "trigger-1",
 			"actionIds": [
 				"action-3"
