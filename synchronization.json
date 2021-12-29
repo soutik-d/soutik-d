@@ -83,31 +83,31 @@
 		{
 			"id": "action-1",
 			"name": "SyncRequirementFromAzureDevopsWorkItem",
-			"description": null,
+			"description": "Create, Update, Delete qTest Requirements from Azure DevOps User Stories",
 			"code": ""
 		},
 		{
 			"id": "action-2",
 			"name": "CreateDefectInAzureDevops",
-			"description": null,
+			"description": "Create Bugs in Azure DevOps from qTest Defects",
 			"code": ""
 		},
 		{
 			"id": "action-3",
 			"name": "SyncDefectFromAzureDevopsWorkItem",
-			"description": null,
+			"description": "Update Defect in qTest when the corresponding Bug is updated in Azure DevOps",
 			"code": ""
 		},
 		{
 			"id": "action-4",
 			"name": "AzureUpdateqTestRequirement",
-			"description": null,
+			"description": "Create Cross-referencing between qTest and Azure DevOps. Update Azure DevOps with qTest Requirement PID",
 			"code": ""
 		},
 		{
 			"id": "action-5",
 			"name": "qTestModuleFromAzDoFeature",
-			"description": null,
+			"description": "Create qTest Module from Azure DevOps Features",
 			"code": ""
 		},
 	],
