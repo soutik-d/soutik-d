@@ -4,5 +4,7 @@
 - Create Azure DevOps Bugs from qTest Defects
 - Update qTest Defects when the corresponding Azure DevOps Bug is updated
 - Customize Azure DevOps instance and qTest instance to facilitate cross-referencing
-A detailed installation guide is available in the following link
-https://docs.google.com/document/d/1fIJJ2Ik80TEZHUjgf8vw1AkLHw-r52RlKDvtyYFcRAs/edit#
+A detailed installation guide is available in the following link -- https://docs.google.com/document/d/1fIJJ2Ik80TEZHUjgf8vw1AkLHw-r52RlKDvtyYFcRAs/edit#
+Technology Specific Documentations (Fragmented from the above one)
+ For Azure Config: https://docs.google.com/document/d/1eSCAHKYTSyBlW4U4iLuTUibfaVsnVwKiQ0YBO774onQ/edit#heading=h.ddhddh90a1b8
+ For qTest Config: https://docs.google.com/document/d/1fIJJ2Ik80TEZHUjgf8vw1AkLHw-r52RlKDvtyYFcRAs/edit#
